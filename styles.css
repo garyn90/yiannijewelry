@@ -1,0 +1,90 @@
+/* Yanni Jewelry style sheet*/ 
+@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700&display=swap&subset=latin-ext');
+
+@media (max-width: 320px) {
+  h1#logo {
+  margin-left: 5px;
+  margin-top: 10px;
+  font-family: 'Cinzel', serif;
+  font-size: 1.6em;
+  font-weight: normal;
+  }
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  /*#carou-container {
+    padding: 75px;
+    width: 100%;
+    height: auto;
+  }*/
+}
+
+body {
+  height:auto;
+  width: auto;
+  background-color: rgba(135, 206, 235);
+}
+
+#navigation {
+  background-color: white;
+  z-index: 1;
+  font-family: 'Cinzel', serif;
+}
+
+#logo {
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: 'Cinzel', serif;
+  font-size: 2em;
+  font-weight: normal;
+}
+
+#etsy-id, #insta-id, #facebook-id {
+  padding: 25px;
+  font-size: 1.1em;
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+  margin: 0;
+  letter-spacing: .05em;
+  -webkit-transition: background .3s;
+  transition: background .3s;
+  z-index: 1;
+}
+
+
+
+#collap-menu #etsy-id:hover {
+  background: red;
+}
+
+#collap-menu #facebook-id:hover {
+  background: blue;
+}
+
+#collap-menu #insta-id:hover{ 
+  background: orange;
+}
+
+#header-text {
+  text-transform: uppercase;
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+}
+
+#about-contents {
+  background-color: white;
+  padding: 25px;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: .01em;
+}
