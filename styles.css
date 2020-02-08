@@ -35,7 +35,7 @@ body {
 }
 
 #navigation {
-  background-color: antiquewhite;
+  background-color: white;
   z-index: 1;
   font-family: 'Cinzel', serif;
 }
@@ -76,13 +76,14 @@ body {
 }
 
 #header-text {
+  text-align: center;
   text-transform: uppercase;
   font-family: 'Cinzel', serif;
   font-weight: bold;
 }
 
 #about-contents {
-  background-color: antiquewhite;
+  background-color: white;
   padding: 25px;
   width: 100%;
   font-family: 'Roboto', sans-serif;
