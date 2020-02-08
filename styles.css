@@ -35,7 +35,7 @@ body {
 }
 
 #navigation {
-  background-color: white;
+  background-color: antiquewhite;
   z-index: 1;
   font-family: 'Cinzel', serif;
 }
@@ -82,7 +82,7 @@ body {
 }
 
 #about-contents {
-  background-color: white;
+  background-color: antiquewhite;
   padding: 25px;
   width: 100%;
   font-family: 'Roboto', sans-serif;
