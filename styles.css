@@ -80,7 +80,6 @@ body {
   font-family: 'Roboto', sans-serif;
   letter-spacing: .01em;
   text-align: center;
-  color: black;
 }
 
 #interior-text {
@@ -97,13 +96,3 @@ body {
   font-family: 'Cinzel', serif;
   font-weight: bold;
 }
-
-#header-text2 {
-  color: black;
-  padding: 10px;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: 'Cinzel', serif;
-  font-weight: bold;
-}
-
