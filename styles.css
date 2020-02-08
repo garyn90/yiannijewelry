@@ -66,20 +66,26 @@ body {
   background: orange;
 }
 
+
+
+/* Everything below is underneath the carousel */
+
 #about-contents {
   width: 100%;
   background-color: white;
   font-family: 'Roboto', sans-serif;
   letter-spacing: .01em;
   text-align: center;
+  height: 200px;
 }
 
 #about-contents2 {
   width: 100%;
   background-color: rgba(135, 206, 235);
   font-family: 'Roboto', sans-serif;
-  letter-spacing: .01em;
   text-align: center;
+  color: black;
+  height: 200px;
 }
 
 #interior-text {
@@ -96,3 +102,4 @@ body {
   font-family: 'Cinzel', serif;
   font-weight: bold;
 }
+
