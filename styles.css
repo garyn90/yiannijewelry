@@ -54,8 +54,6 @@ body {
   z-index: 1;
 }
 
-
-
 #collap-menu #etsy-id:hover {
   background: red;
 }
@@ -70,25 +68,42 @@ body {
 
 #about-contents {
   width: 100%;
-  margin-bottom: 25px;
   background-color: white;
   font-family: 'Roboto', sans-serif;
   letter-spacing: .01em;
   text-align: center;
 }
 
-#interior-text {
-  padding: 35px;
+#about-contents2 {
+  width: 100%;
+  background-color: rgba(135, 206, 235);
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: .01em;
   text-align: center;
+  color: black;
+}
+
+#interior-text {
+  padding: 10px;
+  text-align: center;
+  font-size: 1rem;
 }
 
 #header-text {
+  color: black;
   padding: 10px;
-  text-decoration: underline;
   text-align: center;
   text-transform: uppercase;
   font-family: 'Cinzel', serif;
   font-weight: bold;
-  
+}
+
+#header-text2 {
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
 }
 
