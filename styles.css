@@ -71,7 +71,7 @@ body {
 /* Everything below is underneath the carousel */
 
 #about-contents {
-  padding: 0px;
+  padding: 5px;
   background-color: white;
   font-family: 'Roboto', sans-serif;
   letter-spacing: .01em;
@@ -80,7 +80,7 @@ body {
 }
 
 #about-contents2 {
-  padding: 0px;
+  padding: 5px;
   background-color: rgba(135, 206, 235);
   font-family: 'Roboto', sans-serif;
   text-align: center;
