@@ -88,11 +88,10 @@ body {
   
 }
 
-/*#interior-text {
-  padding: 15px;
-  text-align: center;
-  font-size: 1rem;
-}*/
+#interior-text {
+  padding: 5px;
+ 
+}
 
 #header-text {
   color: black;
