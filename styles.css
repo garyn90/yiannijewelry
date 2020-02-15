@@ -86,39 +86,30 @@ body {
   text-align: center;
   background-color: rgba(135, 206, 235);
   font-family: 'Roboto', sans-serif;
-  margin-right: 25px;
+  border-left: 3px white;
+  border-right: 3px white;
   
 }
 
 #about-contents22 {
   padding: 5px;
   text-align: center;
-  background-color: rgba(135, 206, 235);
+  background-color:#43A6C6;
   font-family: 'Roboto', sans-serif;
-   
+  border-left: 3px white;
+  border-right: 3px white;
 }
-
-/*#header-text {
-  color: black;
-  padding: 10px;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: 'Cinzel', serif;
-  font-weight: bold;
-}
-
-
-
-
-/*Text for contents*/
 
 #header-text {
+  font-family: 'Cinzel', sans-serif;
   padding: 10px;
   font-size: 32px;
+  font-weight: 600;
 }
 
 #p-text {
   padding: 5px;
   font-size: 16px;
   letter-spacing: .01em;
+  font-weight: 500;
 }
