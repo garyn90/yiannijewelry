@@ -72,6 +72,10 @@ body {
 /* Everything below is underneath the carousel */
 
 
+#container-contents {
+  margin-top: 10px;
+}
+
 
 #about-contents {
   padding: 5px;
@@ -86,30 +90,62 @@ body {
   text-align: center;
   background-color: rgba(135, 206, 235);
   font-family: 'Roboto', sans-serif;
-  border-left: 3px white;
-  border-right: 3px white;
+  border-right: 1px white;
   
 }
 
 #about-contents22 {
   padding: 5px;
   text-align: center;
-  background-color:#43A6C6;
+  background-color:#48b4e0;
   font-family: 'Roboto', sans-serif;
-  border-left: 3px white;
-  border-right: 3px white;
+  border-left: 1px white;
+  
 }
 
 #header-text {
   font-family: 'Cinzel', sans-serif;
   padding: 10px;
-  font-size: 32px;
-  font-weight: 600;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+#header-text:after {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  max-width: 50%;
+  padding-top: 3px;
+  border-bottom: 1px solid black;
 }
 
 #p-text {
-  padding: 5px;
-  font-size: 16px;
+  padding: 3px;
+  font-size: 18px;
   letter-spacing: .01em;
-  font-weight: 500;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+
+
+/*Button stylings below*/
+
+#white-btn {
+  font-family: 'Verdana', sans-serif;
+  
+  font-weight: 600;
+  
+  color: black;
+  font-size: 14px;
+}
+
+#white-btn:hover {
+  opacity: 50%;
+}
+
+.neckImg {
+  width: 75%;
 }
